@@ -27,8 +27,8 @@ const ExerciseCard = ({ exercise }) => {
         <StyledCard>
             <StyledCardContent>
                 <Typography variant="h6">Exercise Name: {exercise.name}</Typography>
-                <Typography variant="body2">Duration: {exercise.duration}</Typography> 
-                <Typography variant="body2">Fitness Level: {exercise.fitnessLevel}</Typography>
+                <Typography variant="body2">Number of Sets: {exercise.sets}</Typography> 
+                <Typography variant="body2">Number of Reps: {exercise.reps}</Typography>
                 {exercise.targetMuscles && (
                     <Typography variant="body2">
                         Target Muscles: {exercise.targetMuscles.map((muscle, index) => (
