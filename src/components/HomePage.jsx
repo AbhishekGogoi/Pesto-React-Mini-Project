@@ -60,7 +60,7 @@ const HomePage = () => {
     setLoading(true);
 
     const TOKEN = 'YOUR_API_KEY';
-    const topic = `give me a list of exercises for the following parameters in the form of a JSON schema ${JSON.stringify(userData)}`;
+    const topic = `give me a list of exercises, the number of sets,the number of reps and target muscles for each exercise for the following parameters in the form of a JSON schema ${JSON.stringify(userData)}`;
 
     try {
       const response = await axios.post(
