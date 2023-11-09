@@ -59,7 +59,7 @@ const HomePage = () => {
 
     setLoading(true);
 
-    const TOKEN = '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';
+    const TOKEN = 'YOUR_API_KEY';
     const topic = `give me a list of exercises for the following parameters in the form of a JSON schema ${JSON.stringify(userData)}`;
 
     try {
